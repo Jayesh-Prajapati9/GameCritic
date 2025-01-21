@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin : 0px;
+    color: #fff;
+}
+
+.bavbarcontainer{
+    transform: translateX(68%);
+    gap: 70px;
+}
+.navbarlist:hover{
+    text-decoration: underline ;
+    text-underline-offset: 5px;
+}
+#navbar{
+    background-color: #0E213F;
+}
+.searchboxbtn{
+    color:#fff;
+    background-color: #082751;
+    padding: 0px 18px;
+    border-radius: 15px;
+    border: none;
+
+}
+
+.searchboxbtn:hover{
+    background-color: rgba(34, 189, 255, 0.413);
+    color: #fff;
+}
+.searchbox{
+    /* padding: 0px 15px; */
+    margin-right: 55px;
+    display: flex;
+}
+.searchtext{
+    background-color: #ffffff7c;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.searchtext::placeholder{
+    color: #fff;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+    background-image: url(/GameCritic/images/img/img-1.png);
+    object-fit: cover;
+}
+.herobtn{
+    
+}
