@@ -9,7 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark " id="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +17,7 @@
           </button>
           <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 bavbarcontainer">
-              <li class="nav-item ">
+              <li class="nav-item  ">
                 <a class="nav-link navbarlist" href="#">HOME</a>
               </li>
               <li class="nav-item">
@@ -30,74 +30,26 @@
                 <a class="nav-link navbarlist" href="#">CONTACTS</a>
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+            <form class="searchbox">
+              <input class="me-2 searchtext" type="search" placeholder="Search" aria-label="Search">
+              <button class="searchboxbtn" type="submit">Search</button>
             </form>
           </div>
         </div>
       </nav>
-      <div class="slider-container">
-        <!-- Slider List Items -->
-        <div class="slider-wrapper swiper-wrapper">
-          <div class="slider-item swiper-slide">
-            <div class="slide-content">
-              <h3 class="slide-subtitle">Slide 01</h3>
-              <h2 class="slide-title">Lorem ipsum dolor sit amet elit delectus!</h2>
-              <p class="slide-description">Lorem ipsum dolor sit amet consectetur adipisicing elit repellendus harum voluptates.</p>
-              <a href="#" class="slide-button"><span>Learn More</span></a>
-            </div>
-          </div>
-          <div class="slider-item swiper-slide">
-            <div class="slide-content">
-              <h3 class="slide-subtitle">Slide 02</h3>
-              <h2 class="slide-title">Sed ut perspiciatis unde omnis iste natus error sit!</h2>
-              <p class="slide-description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti.</p>
-              <a href="#" class="slide-button"><span>Learn More</span></a>
-            </div>
-          </div>
-          <div class="slider-item swiper-slide">
-            <div class="slide-content">
-              <h3 class="slide-subtitle">Slide 03</h3>
-              <h2 class="slide-title">Nemo enim ipsam voluptatem quia voluptas!</h2>
-              <p class="slide-description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
-              <a href="#" class="slide-button"><span>Learn More</span></a>
-            </div>
-          </div>
-          <div class="slider-item swiper-slide">
-            <div class="slide-content">
-              <h3 class="slide-subtitle">Slide 04</h3>
-              <h2 class="slide-title">Neque porro quisquam est qui dolorem!</h2>
-              <p class="slide-description">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
-              <a href="#" class="slide-button"><span>Learn More</span></a>
-            </div>
-          </div>
-          <div class="slider-item swiper-slide">
-            <div class="slide-content">s
-              <h3 class="slide-subtitle">Slide 05</h3>
-              <h2 class="slide-title">Quis autem velum iure reprehen derit qui voluptate!</h2>
-              <p class="slide-description">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
-              <a href="#" class="slide-button"><span>Learn More</span></a>
-            </div>
-          </div>
+
+      <section class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 mb-4">Your Ultimate Gaming Review Platform</h1>
+            <p class="lead mb-4">Discover, review, and discuss the latest games with our community of gamers</p>
+            <button class="btn btn-outline-light herobtn btn-lg me-3">Latest Reviews</button>
+            <button class="btn btn-outline-light btn-lg">Join Community</button>
         </div>
-        <!-- Slider Pagination -->
-        <div class="slider-controls">
-          <ul class="slider-pagination">
-            <div class="slider-indicator"></div>
-            <li class="slider-tab current">Lorem ipsum doloriums viconsetur</li>
-            <li class="slider-tab">Ipsum leositea pellentes nisiutoret</li>
-            <li class="slider-tab">Aenean consectetur blandit dictum</li>
-            <li class="slider-tab">Vestibulum antea primis faucibs</li>
-            <li class="slider-tab">Molestas minus conse alquid sed</li>
-          </ul>
-        </div>
-        <!-- Slider Navigations (Prev/Next) -->
-        <div class="slider-navigations">
-          <button id="slide-prev" class="material-symbols-rounded">arrow_left_alt</button>
-          <button id="slide-next" class="material-symbols-rounded">arrow_right_alt</button>
-        </div>
-      </div>
-    
+    </section>
+      
 </body>
 </html>
+
+<!-- Event 
+ regualar
+ class constructor -->
